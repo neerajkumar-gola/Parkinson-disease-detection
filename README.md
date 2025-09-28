@@ -1,3 +1,16 @@
-# Parkinson-disease-detection
-This project focuses on Parkinson’s Disease detection using machine learning classification models. The dataset includes biomedical voice measurements, which are analyzed to classify whether a subject is healthy or has Parkinson’s Disease. Also this project compares the performance of different classification models for finding the best model.
-<br/>
+# Parkinson's Disease Classification
+
+This project analyzes the Parkinson’s disease dataset using multiple classification algorithms and provides a Streamlit-based web app for performance comparison.
+
+## Models Used
+- Decision Tree
+- Naive Bayes
+- K-Nearest Neighbors
+- Logistic Regression
+- Random Forest
+
+## How to Run
+1. Clone the repo
+2. Place `parkinsons.data` in `data/`
+3. Install dependencies
+4. Run using `streamlit run app.py`
